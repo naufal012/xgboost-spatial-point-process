@@ -1,0 +1,42 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.rds
+*.rdata
+*.Rda
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+*.egg-info/
+
+# Optuna outputs
+xgboost/
+lightgbm/
+
+# Generated outputs (figures, tables, saved models)
+output/
+
+# Data files (large CSVs and binary R objects)
+data/**/*.csv
+data/**/*.RData
+data/**/*.rdata
+data/**/*.Rda
+data/**/*.rds
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Misc shell brace expansion artefacts
+"{python,R"*
